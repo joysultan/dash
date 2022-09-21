@@ -1,0 +1,109 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (min-width: 320px) and (max-width: 575px) { 
+           /* header start  */
+           .b-content {
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+            .b-content p {
+                font-size: 16px;
+                line-height: 22px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+    .b-content h2{
+        font-size: 25px;
+    }
+    .b-content a {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+    .b-btn {
+        font-size: 16px;
+    }
+    .b-span {
+        font-size: 16px;
+    }
+        .banner{
+                width: 100% !important;
+        }
+    header {
+        padding: 5px 0;
+    }
+    .menu ul li a {
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+      
+    }
+
+    /* header end  */
+}
+/* banner start */
+
+/* banner end */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+        .b-content {
+                padding-top: 50px;
+                padding-bottom: 60px;
+            }
+            .b-content p {
+                font-size: 16px;
+                line-height: 24px;
+                margin-top: 15px;
+                margin-bottom: 40px;
+            }
+    .b-content h2{
+        font-size: 35px;
+    }
+    .b-content a {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+    .b-btn {
+        font-size: 16px;
+    }
+    .b-span {
+        font-size: 16px;
+    }
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+        .b-content {
+                padding-top: 130px;
+                padding-bottom: 160px;
+            }
+        .b-content h2 {
+                font-size: 40px;
+              
+            }
+        .b-content p {
+                font-size: 16px;
+                line-height: 30px;
+                margin-top: 20px;
+                margin-bottom: 60px;
+            }
+            .b-content a {
+                font-size: 20px;
+                padding: 10px 25px;
+             
+            }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner{
+        width: 100% !important;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+    
+}
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}

@@ -52,6 +52,7 @@
 .b-content a:hover{
         background-color: transparent;
         color: white;
+        
 }
 .b-btn{
         border: none;
@@ -272,4 +273,85 @@ body{
         height: 60vh;
 }
 /* works end */
+
+/* pricing start */
+
+.c-card{
+        width: 320px !important;
+        height: 470px !important;
+        border: none;
+       border: 1px solid gray;
+       transition: .3s all ease-in;
+}
+.c-card:hover{
+        transform: scale(.9);
+}
+
+.c-body{
+        border: none;
+
+}
+.c-body h2{
+       
+        margin-bottom: 45px;
+
+}
+.c-h2{
+        margin-bottom: 30px;
+        font-size: 22px;
+        margin-left: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+       
+        
+}
+.c-body ul{
+        margin-bottom: 45px;
+}
+.c-body ul li{
+        font-size: 18px;
+        font-weight: 700;
+        color: #8e8e8e;
+}
+.c-body button{
+        text-decoration: none;
+        color: #140e0e;
+        font-size: 25px;
+        font-weight: 600;
+        background: white;
+        padding: 8px 35px;
+        text-align: center;
+        transition: .3s ;
+}
+.c-body button:hover{
+        background-color: black;
+        color: white;
+}
+.p-btn{
+
+}
+/* pricing end */
+
+/* co-founder start */
+.section-co-founder{
+        background-color: #f3f1f1;
+        opacity: .9;
+        padding-top: 40px;
+        padding-bottom: 40px;
+}
+.p-img{
+
+/* margin-right: 30px; */
+
+margin-left: 50px;
+}
+.p-content{
+        
+color: #8e8e8e;
+        
+margin-left: -50px;
+}
+/* co-founder end */
+
 
