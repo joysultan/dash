@@ -1,46 +1,61 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (min-width: 320px) and (max-width: 575px) { 
-           /* header start  */
-           .b-content {
-                padding-top: 20px;
-                padding-bottom: 40px;
-            }
-            .b-content p {
-                font-size: 16px;
-                line-height: 22px;
-                margin-top: 10px;
-                margin-bottom: 40px;
-            }
-    .b-content h2{
+    .menu a {
+        margin: 0;
+        font-size: 16px;
+        color: #0e0a0a;
+    }
+    .pb-5 {
+        padding-bottom: 0 !important;
+    }
+    .banner{
+        width: 100% !important;
+    }
+    .b-content {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .b-content p {
+        line-height: 26px;
+        margin-top: 10px;
+        margin-bottom: 37px;
+    }
+    .b-content h2 {
         font-size: 25px;
     }
     .b-content a {
-        font-size: 16px;
-        padding: 7px 15px;
-    }
-    .b-btn {
+        padding: 5px 5px;
         font-size: 16px;
     }
-    .b-span {
-        font-size: 16px;
+.b-btn {
+font-size: 16px;
+}
+.b-span {
+font-size: 16px;
+}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.b-content {
+        padding-top: 130px;
+        padding-bottom: 160px;
     }
-        .banner{
-                width: 100% !important;
-        }
-    header {
-        padding: 5px 0;
-    }
-    .menu ul li a {
-        padding: 10px 0 0 !important;
-        font-size: 20px;
+.b-content h2 {
+        font-size: 40px;
       
     }
-
-    /* header end  */
-}
-/* banner start */
-
-/* banner end */
+.b-content p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .b-content a {
+        font-size: 20px;
+        padding: 10px 25px;
+     
+    }
+ }
 
 
 /* Small devices (landscape phones, 576px and up) */
